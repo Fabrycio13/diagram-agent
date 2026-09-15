@@ -1,0 +1,17 @@
+erDiagram
+    USER ||--o{ APPLICATION : submits
+    JOB ||--o{ APPLICATION : receives
+    USER {
+        uuid id PK
+        string email UK
+    }
+    JOB {
+        uuid id PK
+        string title
+    }
+    APPLICATION {
+        uuid id PK
+        uuid user_id FK
+        uuid job_id FK
+        string status
+    }

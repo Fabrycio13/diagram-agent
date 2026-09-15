@@ -1,0 +1,16 @@
+classDiagram
+    class CandidateService {
+        +createApplication(input)
+        +findById(id)
+    }
+    class CandidateRepository {
+        +insert(application)
+        +findById(id)
+    }
+    class ApplicationPort {
+        <<interface>>
+        +save(application)
+    }
+    CandidateService --> ApplicationPort : depends on
+    CandidateRepository ..|> ApplicationPort : implements
+    CandidateService --> CandidateRepository : delegates

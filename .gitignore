@@ -1,0 +1,27 @@
+# Secrets and local Hermes state
+.env
+.env.*
+!.env.EXAMPLE
+auth.json
+memories/
+sessions/
+state.db*
+logs/
+
+# Node and local runtime data
+node_modules/
+.npm/
+
+# Generated project artifacts and receipts
+out/
+artifacts/
+*.local.html
+*.local.svg
+*.local.png
+*.local.pdf
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

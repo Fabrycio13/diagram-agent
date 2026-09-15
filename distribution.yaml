@@ -1,0 +1,17 @@
+name: diagram-arch
+version: 0.1.0
+description: "Especialista em arquitetura, fluxos, sequências, dados, ciclo de vida, ER e classes de backend"
+hermes_requires: ">=0.12.0"
+author: "Fabrycio13"
+license: "MIT"
+# Arquivos controlados pela distribuição. Credenciais, memória e sessões ficam locais.
+distribution_owned:
+  - SOUL.md
+  - skills/
+  - runtime/
+  - docs/
+  - examples/
+  - tests/
+  - README.md
+  - UPSTREAM.md
+  - distribution.yaml

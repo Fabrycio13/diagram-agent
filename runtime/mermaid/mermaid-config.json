@@ -1,0 +1,19 @@
+{
+  "theme": "neutral",
+  "securityLevel": "strict",
+  "flowchart": {
+    "htmlLabels": false,
+    "useMaxWidth": true
+  },
+  "sequence": {
+    "useMaxWidth": true,
+    "wrap": true,
+    "showSequenceNumbers": false
+  },
+  "class": {
+    "useMaxWidth": true
+  },
+  "er": {
+    "useMaxWidth": true
+  }
+}
